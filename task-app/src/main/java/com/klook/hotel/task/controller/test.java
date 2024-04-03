@@ -21,6 +21,8 @@ public class test {
         String sql="select * from user";
         List<Map<String,Object>> res=jdbcTemplate.queryForList(sql);
         System.out.println("aaaaa");
+
+
         return res;
     }
 }
