@@ -22,7 +22,7 @@ public class test {
         List<Map<String,Object>> res=jdbcTemplate.queryForList(sql);
         System.out.println("aaaaa");
 
-
+        System.out.println("nnnnn");
         return res;
     }
 }
